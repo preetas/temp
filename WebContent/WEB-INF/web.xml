@@ -27,6 +27,7 @@
   </context-param>
   <servlet>
     <description></description>
+    <display-name>AdminServlet</display-name>
 <servlet-name>AdminServlet</servlet-name>
     <servlet-class>servlet.AdminServlet</servlet-class>
   </servlet>
