@@ -25,4 +25,7 @@
     <param-name>password</param-name>
     <param-value></param-value>
   </context-param>
+  <servlet>
+<servlet-name>Adminlog</servlet-name>
+
 </web-app>
