@@ -105,7 +105,7 @@ function validateForm() {
   </style>
 </head>
 <body>
-<form action="http://localhost:8080/wall/AdminServlet" method="post">
+<form action="AdminServlet" method="post">
 
 
 <nav class="navbar navbar-inverse">
@@ -167,7 +167,7 @@ function validateForm() {
         <div class="form-group col-sm-offset-2 col-sm-4">
             <input type="submit" onsubmit="validateForm()" class="button" value=" Login" /><br/>
             <div>
-      <a href="http://localhost:8080/wall/forgotpass.jsp">forgot password?</a>
+      <a href="forgotpass.jsp">forgot password?</a>
       </div>
     
     </div>
