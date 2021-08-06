@@ -26,6 +26,13 @@
     <param-value></param-value>
   </context-param>
   <servlet>
-<servlet-name>Adminlog</servlet-name>
+    <description></description>
+<servlet-name>AdminServlet</servlet-name>
+    <servlet-class>servlet.AdminServlet</servlet-class>
+  </servlet>
+<servlet-mapping>
+<servlet-name>AdminServlet</servlet-name>
+<url-pattern>/AdminServlet</url-pattern>
+</servlet-mapping>
 
 </web-app>
