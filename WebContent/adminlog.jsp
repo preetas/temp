@@ -36,7 +36,7 @@ function validateForm() {
     if (x == "") {
         alert("Name must be filled out");
         return false;
-        
+        }
         
         var y = document.forms["myForm"]["pwd"].value;
         if (y=="") {
