@@ -44,13 +44,14 @@ function validateForm() {
             return false;
         
     }
+}
 
 
 
 
 </script>
   
-      <style>
+      
   <style>
     /* Remove the navbar's default margin-bottom and rounded borders */ 
     .navbar {
