@@ -14,8 +14,8 @@ public class H2jdbcCreateDemo {
    static final String DB_URL = "jdbc:h2:mem:my_data;DB_CLOSE_ON_EXIT=FALSE";  
    
    //  Database credentials 
-   static final String USER = "sa"; 
-   static final String PASS = ""; 
+   static final String USER = "DB_USER"; 
+   static final String PASS = "DB_PASSWORD"; 
   
    public static void main(String[] args) { 
       Connection conn = null; 
