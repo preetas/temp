@@ -25,14 +25,14 @@ public class MyListener implements ServletContextListener {
 
 
     public void contextInitialized(ServletContextEvent sce)  { 
-        String driver=sce.getServletContext().getInitParameter("driver");
+        //String driver=sce.getServletContext().getInitParameter("driver");
         String url=sce.getServletContext().getInitParameter("jdbcurl");
         String user=sce.getServletContext().getInitParameter("username");
         String pwd=sce.getServletContext().getInitParameter("password");
     	
     	try
         {
-    		Class.forName(driver);
+    		//Class.forName(driver);
     		con = DriverManager.getConnection(url, user, pwd);
     		sce.getServletContext().setAttribute("dbconnection", con);
     		System.out.println("db connection is set context level attribute");
