@@ -16,11 +16,11 @@
   </context-param>
   <context-param>
     <param-name>username</param-name>
-    <param-value>root</param-value>
+    <param-value>petclinic</param-value>
   </context-param>
   <context-param>
     <param-name>password</param-name>
-    <param-value>root</param-value>
+    <param-value>petclinic</param-value>
   </context-param>
   <servlet>
     <description></description>
